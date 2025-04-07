@@ -14,6 +14,47 @@
             <h1>Crystal Game (Python)</h1>
         </div>
 
+        <div class="instructions">
+            <p>You will be given a random number at the start of the game.</p>
+    
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+    
+            <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number</p>
+    
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+    
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </div>
+    
+        <div class=numberToMatch>
+            <h3>
+                <span id="randomNumber">Random Number - </span>
+            </h3>
+        </div>
+
+        <div class="winsAndLosses">
+            <div class="col-3">Wins - </div>
+                <span id="numberWins"></span>
+            <div class="col-3">Losses - </div> 
+                <span id="numberLosses"></span>
+            </h3>
+        </div>
+
+        <div class="crystals">
+            <img src="https://www.centreofexcellence.com/media/image/e7/20/93be988955e1cf67837d58a1c236.jpg" id="one" alt="blue">
+            <img src="https://www.caveofthemounds.com/wp-content/uploads/2023/04/51-1.webp" id="two" alt="white">
+            <img src="https://cdn.shopify.com/s/files/1/0273/4214/3566/files/bigstock-Red-natural-crystal-mineral-on-417681322.jpg?v=1619016910" id="three" alt="red">
+            <img src="https://cdn.shopify.com/s/files/1/0133/1209/8368/files/green_Prasiolite_480x480.jpg?v=1707935675" id="four" alt="green">
+        </div>
+    
+        <div class="total">
+            <h3>Total - 
+            <span id="finalTotal"></span>
+            </h3>
+        </div>
+    
+        <script type="text/python" src="python.py"></script>
+
     </body>
     
 </html>
